@@ -20,10 +20,14 @@ Belajar **routing** dasar Laravel.
 
 | Domain | Method        | URI  | Name | Action                                | Middleware |
 |--------|---------------|------|------|---------------------------------------|------------|
-|        | GET&#124;HEAD | /    |      | Closure                               |            |
-|        | GET&#124;HEAD | home |      | App\Http\Controllers\Pendaratan@index |            |
+|        | GET&#9134;HEAD | /    |      | Closure                               |            |
+|        | GET&#9134;HEAD | home |      | App\Http\Controllers\Pendaratan@index |            |
 
 ### Commit 2
 
 Melanjutkan tentang *routing*, dialihkan ke *view*.
 Belajar Blade templating dan mengirim data ke *view*.
+
+### Commit 3
+
+Memindahkan function untuk routing `blog.index`.

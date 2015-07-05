@@ -19,4 +19,14 @@ class Pendaratan extends Controller
         return "Pendaratan berhasil!";
     }
 
+    public function blog()
+    {
+        return view('blog.index')->with('blogTitle', 'Blog Name');
+    }
+
+    public function page()
+    {
+        return view('blog.page');
+    }
+
 }
