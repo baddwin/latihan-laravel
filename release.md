@@ -15,10 +15,15 @@ Mengawali rekaman *version control system*.
 
 Belajar **routing** dasar Laravel.
 
-	php artisan make:controller Pendaratan
+	php artisan make:controller Pendaratan --plain
 	php artisan route:list
 
 | Domain | Method        | URI  | Name | Action                                | Middleware |
 |--------|---------------|------|------|---------------------------------------|------------|
 |        | GET&#124;HEAD | /    |      | Closure                               |            |
 |        | GET&#124;HEAD | home |      | App\Http\Controllers\Pendaratan@index |            |
+
+### Commit 2
+
+Melanjutkan tentang *routing*, dialihkan ke *view*.
+Belajar Blade templating dan mengirim data ke *view*.

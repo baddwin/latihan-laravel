@@ -16,3 +16,6 @@ Route::get('/', function () {
 });
 
 Route::get('home', 'Pendaratan@index');
+Route::get('blog', function (){
+	return view('blog.index')->with('blogTitle', 'Blog Name');
+});
