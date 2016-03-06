@@ -16,7 +16,7 @@ class Pendaratan extends Controller
      */
     public function index()
     {
-        return "Pendaratan berhasil!";
+        return "Login berhasil!";
     }
 
     public function blog()
